@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'TT Lakes Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local("TT Lakes"), url("../fonts/TTLakes-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: 'TT Lakes Medium';
+    src: local("TT Lakes"), url("../fonts/TTLakes-Medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes Regular';
+    src: local("TT Lakes"), url("../fonts/TTLakes-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*color*/
+$basic-black: #1B1C21;
+$cian: #41F6D7;
+$border-cian: #B8FFEC;
+$basic-grey: #7E7E82;
+$background-color: #F2F2F2;
+$button-color:#FF3E79;
+$background-color--white:white;
+$border-bottom:#EAEAEA;
+$bg-color:#F2F2F2;
+$lin-grad-from:#F8F8F8;
+$lin-grad-to:#FFFFFF;
+$box-shadow:  -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80, 0.2);
+$paginator-color:#DDDDDD;
+
+/*Other*/
+$swiper-pagination-bullet-horizontal-gap-cust: 4px;
+$swiper-pagination-bullet-width-cust: 14px;
+$swiper-pagination-bullet-height-cust: 14px;
+$swiper-pagination-bullet-inactive-color-cust: #DDDDDD;
+

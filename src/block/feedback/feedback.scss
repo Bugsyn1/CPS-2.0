@@ -1,0 +1,131 @@
+
+.feedback__modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    right:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.96)
+}
+
+
+
+.container__feedback{
+    width: 320px;
+    height: 676px;
+    margin: 0 auto;
+    background-color: $background-color--white;
+
+}
+
+
+.feedback__wrap{
+margin: 0px 16px;
+}
+.callback__header{
+    font-size: 24px;
+    font-family: 'TT Lakes Bold';
+    margin-bottom: 24px;
+}
+.feedback__button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translate(150px, 10px);
+    border-radius: 16px;
+    width: 119px;
+    height: 32px;
+    border: none;
+    background-color: $button-color;
+    font-size: 12px;
+    color: $background-color--white;
+    font-family: 'TT Lakes Bold';
+    text-transform: uppercase;
+}
+
+.feedback__button-back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $button-color;
+    border: none;
+    cursor: pointer;
+    transform: translate(0px, 10px);
+}
+
+
+.feedback__item{
+    width: 288px;
+    height: 48px;
+    margin-bottom:16px;
+    border-radius: 8px;
+border:1px solid $border-bottom;
+}
+.feedback__form .feedback__item:nth-child(4){
+    width: 288px;
+    height: 118px;
+}
+
+.feedback__header::after{
+    content: url("../img/highlight.svg");
+    position: relative;
+    top: 15px;
+    left: -154px;
+
+}
+
+.feedback__text{
+    font-family: 'TT Lakes Regular';
+    font-size: 14px;
+    color: $basic-grey;
+
+}
+
+.feedback__text--mod{
+    color: $button-color
+
+}
+
+@media (min-width:440px){
+    .container__feedback {
+        width: 440px;
+        height: 940px;
+        margin: 0 auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        box-shadow: $box-shadow;
+    }
+
+    .feedback__wrap {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+    .feedback__header::after{
+        content: url("../img/highlight.svg");
+        position: relative;
+        top: 15px;
+        left: -170px;
+    }
+    .feedback__item{
+        width: 376px;
+        height: 48px;
+        padding: 0px 10px;
+    }
+    .feedback__form .feedback__item:nth-child(4){
+        width: 376px;
+        height: 118px;
+        padding-top:10px;
+    }
+
+.feedback__button{
+    transform: translate(240px, 10px);
+}
+
+}

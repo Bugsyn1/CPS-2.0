@@ -1,0 +1,79 @@
+.footer-container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+.footer__item {
+    font-family: 'TT Lakes Regular';
+    color: $basic-grey;
+    font-size: 14px;
+  
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+   
+}
+
+.footer__CPS{
+   display: flex;
+   justify-content: center;
+   margin-top: 16px;
+}
+.footer__item--info{
+width: 280px;
+height: 32px;
+text-align: center;
+padding-right: 20px;
+}
+@media (min-width:768px){
+    .footer-container {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .footer__list {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-around;
+    }
+
+    .footer__item--info{
+        width: 310px;
+        height: 32px;
+       text-align: end;
+        }
+       .footer__item--CPS{
+       align-items: flex-start;
+     
+       }
+
+       @media (min-width:1120px){
+        .footer-container {
+            max-width: 1120px;
+            margin: 0 auto;
+        }
+        .footer__item--info{
+            width: 300px;
+            height: 32px;
+           
+            }
+       }
+       @media (min-width:1366px){
+        .footer-container {
+            max-width: 1366px;
+            margin: 0 auto;
+        }
+
+       }
+       
+.footer__CPS{
+    display: inline;
+    margin-top: 0;
+}
+    }

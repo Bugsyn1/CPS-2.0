@@ -1,0 +1,122 @@
+
+.callback--modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    right:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.96)
+}
+.container-callback {
+    width: 320px;
+    height: 676px;
+    margin: 0 auto;
+    background-color: $background-color--white;
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 10;
+
+}
+
+.callback__header {
+    font-size: 24px;
+    font-family: 'TT Lakes Bold';
+    margin-bottom: 24px;
+}
+
+.callback__item {
+    width: 288px;
+    height: 48px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid $border-bottom;
+    margin-bottom: 16px;
+    outline: none;
+}
+
+.callback__text {
+    font-family: 'TT Lakes Regular';
+    font-size: 14px;
+    color: $basic-grey;
+}
+
+.callback__text--mod {
+    color: $button-color
+}
+
+.callback__button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transform: translate(150px, 10px);
+    border-radius: 16px;
+    width: 119px;
+    height: 32px;
+    border: none;
+    background-color: $button-color;
+    font-size: 12px;
+    color: $background-color--white;
+    font-family: 'TT Lakes Bold';
+    text-transform: uppercase;
+}
+
+ .callback__button-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 36px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: $button-color;
+    border: none;
+    cursor: pointer;
+    transform: translate(0px, 10px);
+}
+
+.callback__header::after {
+    content: url("../img/highlight.svg");
+    position: relative;
+    top: 10px;
+    left: -200px;
+
+}
+
+.callback__wrap {
+    margin-left: 16px;
+    margin-right: 16px
+}
+
+@media (min-width:440px) {
+    .container-callback {
+        width: 440px;
+        height: 940px;
+        margin: 0 auto;
+        box-shadow: $box-shadow;
+    }
+
+    .callback__wrap {
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+
+    .callback__item {
+        width: 376px;
+        height: 48px;
+        padding: 0 10px;
+    }
+    .callback__header::after {
+        top: 10px;
+        left: -214px;
+    }
+    .callback__button{
+    transform: translate(250px, 10px);
+
+    }
+    .callback__button-back{
+     display: block;
+}
+}

@@ -1,0 +1,33 @@
+:root{
+--swiper-theme-color:#B5B6BC;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 $swiper-pagination-bullet-horizontal-gap-cust;
+}
+.swiper-pagination-bullet{
+    width: $swiper-pagination-bullet-width-cust;
+    height: $swiper-pagination-bullet-height-cust
+}
+
+.swiper-pagination-bullet{
+ background: $swiper-pagination-bullet-inactive-color-cust;
+}
+
+
+body{
+    font-family: 'TT Lakes';
+    background-color: $background-color--white;
+}
+
+.container{
+    background-color:$bg-color;
+}
+
+.hide{
+    display: none;
+}
+.hidden{
+    display: none;
+}
+
