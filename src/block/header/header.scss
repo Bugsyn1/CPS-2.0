@@ -1,3 +1,7 @@
+.container{
+    background-color: $bg-color;
+    
+}
 
 .body {
 
@@ -64,11 +68,13 @@
     border: none;
     cursor: pointer;
     box-sizing: border-box;
+ 
 /* display: flex;
 align-items: center;
 justify-content: center; */
 
 }
+
 
 .nav__button {
     color: $basic-grey;
@@ -80,6 +86,12 @@ justify-content: center; */
     top: -10px;
     right: -10px;
 }
+
+.logo__link{
+    text-decoration: none;
+}
+
+
 
 @media (min-width:768px) {
 
@@ -150,6 +162,8 @@ justify-content: center; */
 
     .nav-right .button-mod:nth-child(2) {
         margin-right: 45px;
+     
+        
     }
 
     .end-buttons-discripton {
@@ -170,18 +184,15 @@ justify-content: center; */
 
 @media(min-width:1366px) {
     .container {
-    max-width: 1120px;
+    min-width: 1120px;
 
     }
-
-
-
 
 }
 
 @media(min-width:1440px) {
     .container {
-    max-width: 1120px;
+    min-width: 1120px;
      margin-left:344px;
     }
 
@@ -191,6 +202,14 @@ justify-content: center; */
 
 
 }
+
+
+ 
+
+
+
+
+
 
 
 

@@ -1,3 +1,6 @@
+/* import Swiper, { Pagination } from "swiper";
+Swiper.use(Pagination); */
+
 export const mobile = window.matchMedia('(min-width: 0px) and (max-width: 767px)');
 export const tablet = window.matchMedia('(min-width: 768px) and (max-width: 1119px)');
 export const desktop = window.matchMedia('(min-width: 1120px)');

@@ -1,79 +1,110 @@
 .footer-container {
-    max-width: 300px;
-    margin: 0 auto;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 
 .footer__item {
-    font-family: 'TT Lakes Regular';
-    color: $basic-grey;
-    font-size: 14px;
-  
+  font-family: 'TT Lakes Regular', Arial, Helvetica, sans-serif;
+  color: $basic-grey;
+  font-size: 14px;
+  padding: 0 24px;
+
 }
 
 .footer__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.footer__CPS {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.footer__item--info {
+  width: 280px;
+  height: 32px;
+  text-align: center;
+  padding-right: 20px;
+}
+
+@media (min-width:768px) {
+  .footer-container {
+    max-width: 768px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 41px;
+  }
+
+  .footer__list {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-left: 16px;
+  }
+
+  .footer__item--info {
+    width: 310px;
+    height: 32px;
+    text-align: end;
+    padding-left: 0;
+  }
+
+  .footer__item--CPS {
     display: flex;
     flex-direction: column;
-    align-items: center;
- 
+    width: 330px;
+    align-items: baseline;
+    text-align: left;
+    padding-right: 0px;
+
+  }
+
+  .footer__item--size {
+    width: 335px;
+    padding: 0px;
+  }
+
+}
+
+@media (min-width:1120px) {
+  .footer-container {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
+
+  .footer__item--info {
+    width: 321px;
+    height: 32px;
+
+  }
+
+  .footer__list {
+    justify-content: space-between;
+    margin-left: 0;
    
+  }
+
+
+
 }
 
-.footer__CPS{
-   display: flex;
-   justify-content: center;
-   margin-top: 16px;
-}
-.footer__item--info{
-width: 280px;
-height: 32px;
-text-align: center;
-padding-right: 20px;
-}
-@media (min-width:768px){
-    .footer-container {
-        max-width: 768px;
-        margin: 0 auto;
-    }
+@media (min-width:1366px) {
+  .footer-container {
+    max-width: 1120px;
+    margin: 0 auto;
+  }
 
-    .footer__list {
-        display: flex;
-        flex-direction: row;
-        align-items: baseline;
-        justify-content: space-around;
-    }
 
-    .footer__item--info{
-        width: 310px;
-        height: 32px;
-       text-align: end;
-        }
-       .footer__item--CPS{
-       align-items: flex-start;
-     
-       }
 
-       @media (min-width:1120px){
-        .footer-container {
-            max-width: 1120px;
-            margin: 0 auto;
-        }
-        .footer__item--info{
-            width: 300px;
-            height: 32px;
-           
-            }
-       }
-       @media (min-width:1366px){
-        .footer-container {
-            max-width: 1366px;
-            margin: 0 auto;
-        }
-
-       }
-       
-.footer__CPS{
+  .footer__CPS {
     display: inline;
     margin-top: 0;
+  }
 }
-    }

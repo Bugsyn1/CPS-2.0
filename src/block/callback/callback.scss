@@ -23,7 +23,7 @@
 
 .callback__header {
     font-size: 24px;
-    font-family: 'TT Lakes Bold';
+    font-family: 'TT Lakes Bold',Arial, Helvetica, sans-serif;
     margin-bottom: 24px;
 }
 
@@ -35,10 +35,11 @@
     border: 1px solid $border-bottom;
     margin-bottom: 16px;
     outline: none;
+    font-family: 'TT Lakes Regular',Arial, Helvetica, sans-serif;
 }
 
 .callback__text {
-    font-family: 'TT Lakes Regular';
+    font-family: 'TT Lakes Regular',Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: $basic-grey;
 }
@@ -59,7 +60,7 @@
     background-color: $button-color;
     font-size: 12px;
     color: $background-color--white;
-    font-family: 'TT Lakes Bold';
+    font-family: 'TT Lakes Bold',Arial, Helvetica, sans-serif;
     text-transform: uppercase;
 }
 
@@ -91,11 +92,14 @@
 }
 
 @media (min-width:440px) {
+  
     .container-callback {
         width: 440px;
         height: 940px;
         margin: 0 auto;
         box-shadow: $box-shadow;
+        animation-name: animation1;
+        animation-duration: 0.4s;
     }
 
     .callback__wrap {
@@ -110,7 +114,7 @@
     }
     .callback__header::after {
         top: 10px;
-        left: -214px;
+        left: -235px;
     }
     .callback__button{
     transform: translate(250px, 10px);

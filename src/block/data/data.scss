@@ -20,9 +20,7 @@ body{
     background-color: $background-color--white;
 }
 
-.container{
-    background-color:$bg-color;
-}
+
 
 .hide{
     display: none;
@@ -31,3 +29,36 @@ body{
     display: none;
 }
 
+
+
+.button-mod--click:hover{
+    transform: scale(1.2) rotate(30deg);
+    transition: 0.5s;
+}
+
+@keyframes animation1
+{
+0% {right: 300px;
+opacity: 0;
+}
+100%{
+    top:0;
+    opacity: 1;
+}
+
+}
+@keyframes animationb
+{
+0% {left: 300px;
+opacity: 0;
+}
+100%{
+    top:0;
+    opacity: 1;
+}
+
+}
+
+.hidden__body{
+    overflow: visible;
+}

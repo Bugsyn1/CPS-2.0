@@ -8,7 +8,11 @@
    height: 100%;
    background-color: rgba(255,255,255,0.96)
 }
+.wrapper{
+animation-name: animationb;
+animation-duration: 0.7s;
 
+}
 /* .menu {
    max-width: 320px;
    background-color: $background-color--white;
@@ -30,6 +34,11 @@
    justify-content: center;
    align-items: center;
 }
+/* .modal--btn:hover{
+   transform: scale(1.2) rotate(30deg);
+   transition: 0.5s;
+} */
+
 
 .menu-header__list {
    /*Контейнер*/
@@ -42,16 +51,17 @@
 
 }
 
-.menu-header__item:nth-child(1) {
+.menu-header__button--burger {
    margin-left: 24px;
    margin-right: 17px;
 }
 
 .menu-header__logo {
    flex-grow: 1;
+   margin-left: 16px;
 }
 
-.menu-header__item:nth-child(3) {
+.menu-header__button--search {
    margin-right: 24px;
 }
 
@@ -129,7 +139,7 @@
 
 }
 
-.footer__item {
+.footer__item-burger {
    margin-right: 16px;
 }
 
@@ -147,7 +157,7 @@
 
 .contacts__tel-link {
    font-size: 24px;
-   font-family: 'TT Lakes Medium';
+   font-family: 'TT Lakes Medium',Arial, Helvetica, sans-serif;
    font-weight: bold;
    color: $basic-black;
    text-decoration: none;
@@ -166,7 +176,7 @@
 
 .language__item {
    color: $basic-black;
-   font-family: 'TT Lakes Medium';
+   font-family: 'TT Lakes Medium',Arial, Helvetica, sans-serif;
    margin-right: 7px;
 }
 /*Модальный фон*/
@@ -209,7 +219,7 @@
 
  .footer__list-collection{
     justify-content: flex-start;
-    margin-left: 24px;
+   
  }
 
 }
@@ -238,9 +248,10 @@
       justify-content: flex-start;
    }
 
-   .menu-header__item:nth-child(1) {
+   .menu-header__button--burger {
       margin-left: 16px;
       margin-right: 0px;
+      
    }
    .main-menu {
       margin-bottom: 80px;

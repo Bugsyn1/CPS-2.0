@@ -11,27 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a057b79d-55b2-4f22-bc36-552a4505a3ac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/brands/brands.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/burger/burger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/callback/callback.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/content/content.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/data/data.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/feedback/feedback.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/footer/footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/header/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/price/price.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/block/types/types.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/mixins/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/mixins/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/style.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/less/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +57,9 @@
       <updated>1633598499729</updated>
       <workItem from="1633598500797" duration="10552000" />
       <workItem from="1633614994760" duration="3245000" />
-      <workItem from="1633618382770" duration="695000" />
+      <workItem from="1633618382770" duration="1701000" />
+      <workItem from="1633682095171" duration="6625000" />
+      <workItem from="1633897973198" duration="2000" />
     </task>
     <servers />
   </component>

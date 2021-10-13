@@ -10,11 +10,11 @@
     rel="stylesheet"
     href="https://unpkg.com/swiper/swiper-bundle.min.css"
   />
-    <!--<link rel="stylesheet" href="less/style.css">-->
+    <link rel="stylesheet" href="less/style.css">
 
 </head>
 
-<body class="body">
+<body class="body hidden__body">
     <div class="container">
         <!--HEADER-->
         <div class="header">
@@ -47,11 +47,11 @@
                 <section class="nav-right">
                     <div class="end-buttons">
                         <span class="end-buttons-discripton">Оставить заявку</span>
-                        <button class="button-mod" type="button">
+                        <button class="button-mod ss" type="button">
                             <img class="button-mod__settings-img" src="./img/Group.svg" alt="settings">
                         </button>
                         <span class="end-buttons-discripton">Статус ремонта</span>
-                        <button class="button-mod">
+                        <button class="button-mod button-mod">
                             <img class="button-mod__search-img" src="../src/img/seach icon.svg" alt="search">
                         </button>
                     </div>
@@ -63,7 +63,7 @@
             <!--HEADING-->
             <div class="wrap">
                 <div class="heading">
-                    <h1>Услуги и сервисы</h1>
+                    <h1 class="heading__text">Услуги и сервисы</h1>
                 </div>
                 <!--NAVIGATION-->
 
@@ -94,7 +94,7 @@
                                 Специальные цены
                             </button>
                         </li>
-                        <li class="nav__list">
+                        <li class="nav__list nav__list--size">
                             <button class="nav__button" type="button">
                                 Отзывы
                             </button>
@@ -349,17 +349,17 @@
                 <div class="price__offer">
                     <a class="price__link" href="#">Получить коммерческое предложение</a>
                 </div>
-
+</div>
         </section>
         <footer class="footer">
             <div class="footer-container">
 
                 <div class="footer__list">
                     <div class="footer__item footer__item--CPS">
-                        <span class="footer__CPS">© 2019 CPS</span><br>
+                        <span class="footer__CPS">© 2019 CPS</span>
                         <span>Разработано командой Apesong</span>
                     </div>
-                    <div class="footer__item">
+                    <div class="footer__item footer__item--size">
                         <p>Политика конфиденциальности</p>
                     </div>
                     <div class="footer__item footer__item--info">
@@ -369,7 +369,7 @@
 
             </div>
         </footer>
-    </div>
+    
         <!-- Меню Burger-->
         <div class="modal">
             <aside class="menu">
@@ -378,7 +378,7 @@
                         <ul class="menu-header__list">
 
                             <li class="menu-header__item">
-                                <button class="menu-header__button menu-header__button--hide">
+                                <button class="menu-header__button menu-header__button--hide menu-header__button--burger">
                                     <img class="menu-header__icon-burger" src="../src/img/burger-exit.svg" alt="">
                                 </button>
                             </li>
@@ -388,7 +388,7 @@
                                 </a>
                             </li>
                             <li class="menu-header__item">
-                                <button class="menu-header__button">
+                                <button class="menu-header__button menu-header__button--search">
                                     <img class="button-mod__search-img" src="../src/img/seach icon.svg" alt="search">
                                 </button>
                             </li>
@@ -444,22 +444,22 @@
                             <ul class="footer__list-collection">
 
 
-                                <li class="footer__item">
-                                    <button class="footer__button modal--btn">
+                                <li class="footer__item-burger">
+                                    <button class="footer__button modal--btn button-mod--click">
                                         <img class="button-mod__call-img" src="../src/img/icon call.svg" alt="contacts">
                                     </button>
                                 </li>
 
 
-                                <li class="footer__item">
-                                    <button class="footer__button modal--message">
+                                <li class="footer__item-burger">
+                                    <button class="footer__button modal--message button-mod--click">
                                         <img class="button-mod__messages-img" src="../src/img/message icon.svg"
                                             alt="message">
                                     </button>
                                 </li>
 
 
-                                <li class="footer__item">
+                                <li class="footer__item-burger">
                                     <button class="footer__button">
                                         <img class="button-mod__profile-img" src="../src/img/Group.svg" alt="">
                                     </button>
@@ -492,9 +492,9 @@
 
                 </div>
         </div>
-        </aside>
+    </div>
         <!-- Обратная связь-->
-        <aside class="feedback">
+        <div class="feedback">
             <div class="feedback__modal">
                 <div class="container__feedback">
                     <div class="feedback__wrap">
@@ -509,7 +509,7 @@
                             <input class="feedback__item" type="text" name="name" placeholder="Имя">
                             <input class="feedback__item" type="tel" name="phone number" placeholder="Телефон">
                             <input class="feedback__item" type="email" name="email" placeholder="Электронная почта">
-                            <textarea class="feedback__item" rows="4" cols="40" name="mesage"
+                            <textarea class="feedback__item  feedback__item--textarea" rows="4" cols="40" name="mesage"
                                 placeholder="Сообщение"></textarea>
                             <div class="feedback__text">
                                 Нажимая “отправить”, вы даете согласие на <span
@@ -524,9 +524,9 @@
                     </div>
                 </div>
             </div>
-        </aside>
+        </div>
         <!-- Заказать звонок-->
-        <aside class="callback">
+        <div class="callback">
             <div class="callback--modal">
                 <div class="container-callback">
                     <div class="callback__wrap">
@@ -553,7 +553,7 @@
                 </div>
             </div>
     </div>
-    </aside>
+</div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <!--<script src="../src/js/modal.js"></script>
     <script src="../src/js/callback.js"></script>
@@ -562,8 +562,6 @@
     <script src="../src/js/brands.js"></script>
     <script src="../src/js/types.js"></script>
     <script src="../src/js/price.js"></script>-->
-
-
 </body>
 
 </html>
