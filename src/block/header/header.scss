@@ -200,6 +200,8 @@ justify-content: center; */
 }
 
 @media(min-width:1440px) {
+
+
   .container {
     max-width: 100%;
     margin-left: 344px;
@@ -207,6 +209,10 @@ justify-content: center; */
 
   .menu-header__list {
     transform: translate(0px, 5px);
+  }
+  .header-nav{
+    max-width: 100%;
+    margin-right: 24px;
   }
 
  

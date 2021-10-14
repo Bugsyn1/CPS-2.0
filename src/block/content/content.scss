@@ -223,9 +223,13 @@ ul {
       max-width: 100%;
    }
    .desc{
-      max-width: 1120px;
+      max-width: 100%;
    }
    .header{
-      max-width: 1120px;
+      max-width: 100%;
+   }
+
+   .content__gallery{
+      padding: 0 48px;
    }
 }

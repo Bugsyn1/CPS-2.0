@@ -213,7 +213,10 @@ justify-content: center; */ }
     max-width: 100%;
     margin-left: 344px; }
   .menu-header__list {
-    transform: translate(0px, 5px); } }
+    transform: translate(0px, 5px); }
+  .header-nav {
+    max-width: 100%;
+    margin-right: 24px; } }
 
 .wrap {
   max-width: 290px;
@@ -379,9 +382,11 @@ ul {
   .wrap {
     max-width: 100%; }
   .desc {
-    max-width: 1120px; }
+    max-width: 100%; }
   .header {
-    max-width: 1120px; } }
+    max-width: 100%; }
+  .content__gallery {
+    padding: 0 48px; } }
 
 /* .body{
     background-color:$bg-color
@@ -522,7 +527,9 @@ ul {
   .container-brands {
     max-width: 100%; }
   .brands__list {
-    max-width: 1120px; } }
+    max-width: 100%; }
+  .brands__container {
+    max-width: 100%; } }
 
 .container-types {
   max-width: 300px;
@@ -631,7 +638,11 @@ ul {
   .container-types {
     max-width: 100%; }
   .types__container {
-    max-width: 1120px; } }
+    max-width: 100%; }
+  .types__list {
+    max-width: 100%; }
+  .types__heading {
+    max-width: 100%; } }
 
 .container-price {
   max-width: 300px;
@@ -804,13 +815,13 @@ ul {
   .container-price {
     max-width: 100%; }
   .price__container {
-    max-width: 1120px; }
+    max-width: 100%; }
   .price__title {
-    max-width: 1120px; }
+    max-width: 100%; }
   .price__list {
-    max-width: 1120px; }
+    max-width: 100%; }
   .price {
-    max-width: 1120px; } }
+    max-width: 100%; } }
 
 .price__link::after {
   content: url(./static/galka.svg);
@@ -896,7 +907,7 @@ ul {
   .footer-container {
     max-width: 100%; }
   .footer__list {
-    max-width: 1120px; } }
+    max-width: 100%; } }
 
 .modal {
   display: none;
