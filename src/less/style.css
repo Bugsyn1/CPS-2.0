@@ -113,8 +113,8 @@ body {
   cursor: pointer;
   box-sizing: border-box;
   /* display: flex;
-  align-items: center;
-  justify-content: center; */ }
+align-items: center;
+justify-content: center; */ }
 
 .nav__button {
   color: #7E7E82; }
@@ -190,7 +190,7 @@ body {
     font-family: 'TT Lakes Medium', Arial, Helvetica; }
 
   .header-nav {
-    background-color: #F2F2F2; }
+    background-color: #F8F8F8; }
 
   .header {
     background-color: transparent; } }
@@ -199,7 +199,7 @@ body {
     min-width: 1120px; } }
 @media (min-width: 1440px) {
   .container {
-    max-width: 1120px;
+    max-width: 100%;
     margin-left: 344px; }
 
   .menu-header__list {
@@ -372,7 +372,16 @@ ul {
   .heading::before {
     position: absolute;
     top: 10px;
-    left: 2px; } }
+    left: 2px; }
+
+  .wrap {
+    max-width: 100%; }
+
+  .desc {
+    max-width: 1120px; }
+
+  .header {
+    max-width: 1120px; } }
 /* .body{
     background-color:$bg-color
 } */
@@ -449,7 +458,8 @@ ul {
     height: 56px;
     margin-right: 24px;
     margin-top: 15px;
-    margin-bottom: 16px; }
+    margin-bottom: 16px;
+    max-width: 1120px; }
 
   .brands__heading {
     transform: matrix(-1, 0, 0, 1, 0, 0);
@@ -513,6 +523,12 @@ ul {
   .container-brands {
     max-width: 1120px;
     margin: 0 auto; } }
+@media (min-width: 1440px) {
+  .container-brands {
+    max-width: 100%; }
+
+  .brands__list {
+    max-width: 1120px; } }
 .container-types {
   max-width: 300px;
   margin: 0 auto; }
@@ -616,6 +632,12 @@ ul {
   .container-types {
     max-width: 1120px;
     margin: 0 auto; } }
+@media (min-width: 1440px) {
+  .container-types {
+    max-width: 100%; }
+
+  .types__container {
+    max-width: 1120px; } }
 .container-price {
   max-width: 300px;
   margin: 0 auto; }
@@ -793,6 +815,21 @@ ul {
   .container-price {
     max-width: 1120px;
     margin: 0 auto; } }
+@media (min-width: 1440px) {
+  .container-price {
+    max-width: 100%; }
+
+  .price__container {
+    max-width: 1120px; }
+
+  .price__title {
+    max-width: 1120px; }
+
+  .price__list {
+    max-width: 1120px; }
+
+  .price {
+    max-width: 1120px; } }
 .price__link::after {
   content: url("../img/slide/galka.svg");
   position: relative;
@@ -877,6 +914,12 @@ ul {
   .footer__CPS {
     display: inline;
     margin-top: 0; } }
+@media (min-width: 1440px) {
+  .footer-container {
+    max-width: 100%; }
+
+  .footer__list {
+    max-width: 1120px; } }
 .modal {
   display: none;
   position: fixed;

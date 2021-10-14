@@ -109,3 +109,12 @@
     margin-top: 0;
   }
 }
+@media (min-width:1440px){
+  .footer-container{
+    max-width: 100%;
+  }
+  .footer__list{
+    max-width: 1120px;
+  }
+}
+

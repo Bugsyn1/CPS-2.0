@@ -219,7 +219,26 @@ min-width: 250px;
     }
 }
 
+@media (min-width:1440px){
+    .container-price{
+        max-width: 100%;
+       
+    }
+   .price__container{
+       max-width: 1120px;
+   }
 
+   .price__title{
+       max-width: 1120px;
+   }
+   .price__list{
+       max-width: 1120px;
+   }
+.price{
+    max-width: 1120px;
+}
+
+}
 
 
 .price__link::after{
