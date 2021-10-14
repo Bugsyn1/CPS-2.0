@@ -17,7 +17,7 @@
 <body class="body hidden__body">
     <div class="container">
         <!--HEADER-->
-        <div class="header">
+        <header class="header">
             <nav class="header-nav">
                 <section class="nav-left">
                     <div class="menu-burger">
@@ -40,14 +40,14 @@
                             <img class="button-mod__messages-img" src="../src/img/message icon.svg" alt="message">
                         </button>
                         <button class="button-mod" type="button">
-                            <img class="button-mod__profile-img" src="../src/img/Group.svg" alt="">
+                            <img class="button-mod__profile-img" src="../src/img/Group.svg" alt="logo">
                         </button>
                     </div>
                 </section>
                 <section class="nav-right">
                     <div class="end-buttons">
                         <span class="end-buttons-discripton">Оставить заявку</span>
-                        <button class="button-mod ss" type="button">
+                        <button class="button-mod" type="button">
                             <img class="button-mod__settings-img" src="./img/Group.svg" alt="settings">
                         </button>
                         <span class="end-buttons-discripton">Статус ремонта</span>
@@ -57,7 +57,7 @@
                     </div>
                 </section>
             </nav>
-        </div>
+        </header>
         <!--MAIN-->
         <main class="content">
             <!--HEADING-->
@@ -133,10 +133,11 @@
         <!--Ремонт техники различных брендов-->
         <section class='brands'>
             <div class="container-brands">
+                <div class="brands__container">
                 <h2 class="brands__heading">
                     Ремонт техники различных брендов
                 </h2>
-
+            </div>
 
                 <!-- Slider main container (swiper mySwiper) -->
                 <div class="swiper mySwiper-brand brands__swiper">
@@ -210,9 +211,11 @@
         <!-- Ремонт различных видов техники-->
         <section class="types">
             <div class="container-types">
+                <div class="types__container">
                 <h2 class="types__heading">
                     Ремонт различных видов техники
                 </h2>
+            </div> 
                 <!-- Slider main container (swiper mySwiper) -->
                 <div class="swiper mySwiper-types types__swiper">
                     <!--(swiper-wrapper) -->
@@ -275,7 +278,9 @@
         <!-- Цены на услуги-->
         <section class="price">
             <div class="container-price">
+                <div class="price__container">
                 <h2 class="price__heading">цены на услуги</h2>
+            </div>
                 <div class="swiper mySwiper-price price__swiper">
                     <!--Заглавие таблицы-->
                     <div class="price__title">
@@ -531,7 +536,7 @@
                 <div class="container-callback">
                     <div class="callback__wrap">
                         <button class="callback__button-back" type="button">
-                            <img src="../src/img/iconx.svg" alt="">
+                            <img class="callback__button-img" src="../src/img/iconx.svg" alt="">
                         </button>
                         <h3 class="callback__header">
                             Заказать звонок

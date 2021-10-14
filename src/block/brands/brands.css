@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$button-color".
-        on line 35 of D:\CPS 2.0\src\block\brands\brands.scss
+        on line 36 of D:\CPS 2.0\src\block\brands\brands.scss
 
-30:     justify-content: center;
-31:     align-items: center;
-32:     border-radius: 50%;
-33:     width: 40px;
-34:     height: 40px;
-35:     border: 2px solid $button-color;
-36: }
-37: 
-38:   /*Кнопка показать все*\/
-39: .show-all {
-40:     display: none;
+31:   justify-content: center;
+32:   align-items: center;
+33:   border-radius: 50%;
+34:   width: 40px;
+35:   height: 40px;
+36:   border: 2px solid $button-color;
+37: }
+38: 
+39: /*Кнопка показать все*\/
+40: .show-all {
+41:   display: none;
 
 Backtrace:
-D:\CPS 2.0\src\block\brands\brands.scss:35
+D:\CPS 2.0\src\block\brands\brands.scss:36
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -66,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$button-color\".\A         on line 35 of D:\CPS 2.0\src\block\brands\brands.scss\A \A 30:     justify-content: center;\A 31:     align-items: center;\A 32:     border-radius: 50%;\A 33:     width: 40px;\A 34:     height: 40px;\A 35:     border: 2px solid $button-color;\A 36: }\A 37: \A 38:   /*Кнопка показать все*/\A 39: .show-all {\A 40:     display: none;"; }
+  content: "Error: Undefined variable: \"$button-color\".\A         on line 36 of D:\CPS 2.0\src\block\brands\brands.scss\A \A 31:   justify-content: center;\A 32:   align-items: center;\A 33:   border-radius: 50%;\A 34:   width: 40px;\A 35:   height: 40px;\A 36:   border: 2px solid $button-color;\A 37: }\A 38: \A 39: /*Кнопка показать все*/\A 40: .show-all {\A 41:   display: none;"; }

@@ -118,9 +118,15 @@ ul {
 .heading::before {
    content: url('../img/highlight.png');
    position: absolute;
-   top: 112px;
+   top: 100px;
    left: 0px;
    z-index: 1;
+}
+@media (min-width:320px){
+   .wrap {
+      max-width: 100%;
+     
+   }
 }
 
 @media (min-width:768px) {
@@ -148,7 +154,9 @@ ul {
    .content__gallery {
       align-self: flex-end;
    }
-
+   .heading::before{
+      top:110px
+   }
 }
 
 @media (min-width:1120px) {
@@ -160,12 +168,12 @@ ul {
 
    .heading {
       position: absolute;
-      top: -10px;
+      top: 16px;
    }
 
    .heading::before {
       position: fixed;
-      top: 2px;
+      top: 30px;
    }
 
    .nav-right {
@@ -206,8 +214,8 @@ ul {
 }
 @media (min-width:1440px){
    .heading::before {
-      position: fixed;
-      top: 7px;
-      left:345px;
+      position: absolute;
+      top: 10px;
+      left:2px;
    }
 }

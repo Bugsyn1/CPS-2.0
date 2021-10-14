@@ -19,6 +19,7 @@
     font-size: 16px;
     font-style: solid;
     color: $basic-black;
+    cursor: pointer;
  /*    box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.1) */
 }
 
@@ -36,11 +37,28 @@
 
 }
 
-/* .types__item {
+.types__container{
     display: flex;
-} */
+    align-items: center;
+    justify-content: flex-start;
+    background-image: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    height: 56px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+ 
+}
+
+
+.types__heading{
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 100%;
+    margin-right: 24px;
+}
 
 /*Ремонт различных видов техники*/
+
+
 .types__heading {
     margin-left: 24px;
     line-height: 24px;
@@ -62,6 +80,15 @@
     margin-top: 10px;
 }
 
+@media (min-width:320px){
+    .container-types {
+        max-width: 100%;
+    margin-left: 16px;
+    
+    }
+  
+}
+
 @media (min-width:768px) {
     .container-types {
         max-width: 768px;
@@ -80,16 +107,8 @@
         height: auto;
         margin: 16px 0px;
         margin-right: 10px;
-
     }
 
-    .types__heading{
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-       background-image:linear-gradient(to right, $lin-grad-from, $lin-grad-to);
-        height: 56px;
-    }
     .types__pagination{
         display: none;
     }

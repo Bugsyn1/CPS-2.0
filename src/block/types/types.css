@@ -8,11 +8,11 @@ Error: Undefined variable: "$basic-black".
 19:     font-size: 16px;
 20:     font-style: solid;
 21:     color: $basic-black;
-22:  /*    box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.1) *\/
-23: }
-24: 
-25: /*Кружок и галка*\/
-26: .types__button::after {
+22:     cursor: pointer;
+23:  /*    box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.1) *\/
+24: }
+25: 
+26: /*Кружок и галка*\/
 
 Backtrace:
 D:\CPS 2.0\src\block\types\types.scss:21
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$basic-black\".\A         on line 21 of D:\CPS 2.0\src\block\types\types.scss\A \A 16:     background: white;\A 17:     padding: 20px;\A 18:     font-family: 'TT Lakes Medium';\A 19:     font-size: 16px;\A 20:     font-style: solid;\A 21:     color: $basic-black;\A 22:  /*    box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.1) */\A 23: }\A 24: \A 25: /*Кружок и галка*/\A 26: .types__button::after {"; }
+  content: "Error: Undefined variable: \"$basic-black\".\A         on line 21 of D:\CPS 2.0\src\block\types\types.scss\A \A 16:     background: white;\A 17:     padding: 20px;\A 18:     font-family: 'TT Lakes Medium';\A 19:     font-size: 16px;\A 20:     font-style: solid;\A 21:     color: $basic-black;\A 22:     cursor: pointer;\A 23:  /*    box-shadow: inset 0 0 10px 5px rgba(0, 0, 0, 0.1) */\A 24: }\A 25: \A 26: /*Кружок и галка*/"; }

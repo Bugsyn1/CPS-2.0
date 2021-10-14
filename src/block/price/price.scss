@@ -48,13 +48,16 @@
     color: $background-color--white;
     font-family: 'TT Lakes Bold',Arial, Helvetica, sans-serif;
     text-transform: uppercase;
+    cursor: pointer;
 }
 .price__heading{
     margin-left:24px;
     font-size: 16px;
-    font-family: 'TT Lakes Regular',Arial, Helvetica, sans-serif;
+    font-family: 'TT Lakes Regular';
     text-transform: uppercase;
-    color:$basic-grey
+    color:$basic-grey;
+    font-weight: 400;
+
 }
 
 .price__offer{
@@ -75,6 +78,33 @@ min-width: 250px;
 .price__pagination{
     display: flex;
     justify-content: center;
+}
+
+.price__container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: linear-gradient(270deg, #F8F8F8 0%, #FFFFFF 98.61%);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    height: 56px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
+.price__heading{
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    width: 100%;
+    margin-right: 16px;
+  
+}
+
+@media (min-width:320px){
+    .container-price {
+        max-width: 100%;
+        margin-left: 16px;
+    }
+
+
 }
 
 @media (min-width:768px) {
@@ -170,7 +200,9 @@ min-width: 250px;
     display: none;
 }
 
-
+.price__heading{
+    margin-right: 24px;
+}
 
 }
 

@@ -59,10 +59,11 @@ animation-duration: 0.7s;
 .menu-header__logo {
    flex-grow: 1;
    margin-left: 16px;
+   margin-top: 10px;
 }
 
 .menu-header__button--search {
-   margin-right: 24px;
+   margin-top: 10px;
 }
 
 .main-menu {
@@ -178,6 +179,7 @@ animation-duration: 0.7s;
    color: $basic-black;
    font-family: 'TT Lakes Medium',Arial, Helvetica, sans-serif;
    margin-right: 7px;
+   cursor: pointer;
 }
 /*Модальный фон*/
 
